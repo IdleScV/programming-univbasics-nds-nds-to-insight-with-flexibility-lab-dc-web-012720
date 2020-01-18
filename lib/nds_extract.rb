@@ -78,7 +78,8 @@ def gross_per_studio(collection)
   while count < collection.length do
     studio = collection[count][:studio]
 
-    if hash[studio] += collection[count][:worldwide_gross]
+    if hash[studio] += 
+      collection[count][:worldwide_gross]
     
     count += 1
   end  
