@@ -83,6 +83,7 @@ def gross_per_studio(collection)
     else 
       hash[studio] = collection[count][:worldwide_gross]
     end
+    
     count += 1
   end  
   
